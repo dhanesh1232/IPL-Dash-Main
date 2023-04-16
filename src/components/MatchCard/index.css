@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.each-match {
+  width: 32%;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+}
+.team-img-match {
+  width: 150px;
+  height: 150px;
+}
+.matches-heading {
+  color: #ffffff;
+}
+.match-result {
+  color: #ffffff;
+  font-size: 18px;
+}
+.lost {
+  color: #e31a1a;
+  font-size: 18px;
+}
+.won {
+  color: #18ed66;
+  font-size: 18px;
+}

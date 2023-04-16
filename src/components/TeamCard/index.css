@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.each-list {
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 48%;
+  height: 25vh;
+  background-color: #ffffff33;
+  margin: 5px;
+  border-radius: 10px;
+  color: #000000;
+}
+.lists {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+.img-item {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+.team-name {
+  margin-left: 15px;
+  font-size: 30px;
+}
+.team-name:hover {
+  color: skyblue;
+}

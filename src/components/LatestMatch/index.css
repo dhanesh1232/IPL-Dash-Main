@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.latest-match-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.match-info-head {
+  font-size: 24px;
+  color: #ffffff;
+  align-self: flex-start;
+}
+.latest-match-info-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #475569;
+  background-color: #1e293b;
+  width: 100%;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.latest-match-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+}
+.display-opposite-team {
+  display: flex;
+  flex-direction: column;
+}
+.image-logo {
+  height: 210px;
+  width: 160px;
+}
+.match-status {
+  text-align: right;
+}
+.separator {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .latest-match-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-match-header {
+    width: 50%;
+  }
+  .image-logo {
+    width: 50%;
+  }
+  .separator {
+    width: 100%;
+  }
+}
